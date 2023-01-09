@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: #f0f8ff;
+}
+article {
+  margin: 20px 10px 0px 10px;
+}
+section {
+  margin-bottom: 35px;
+}
+h2 {
+  font-size: 120%;
+  margin-bottom: 2px;
+  border-bottom: solid 1px #000000;
+}
+h3 {
+  font-size: 100%;
+  margin: 0;
+}
+p {
+  margin: 12px 0px;
+}
+th {
+  padding: 1px 20px 1px 20px;
+  color: #ffffff;
+  background-color: #4169e1;
+}
+td {
+  padding: 1px 2px 1px 2px;
+}
+input,
+select,
+button {
+    font-size : 100%;
+}
+span.small {
+  font-size : 75%;
+}
+

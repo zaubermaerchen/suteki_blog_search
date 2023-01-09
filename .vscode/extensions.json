@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "firefox-devtools.vscode-firefox-debug",
+    "dbaeumer.vscode-eslint"
+  ]
+}
