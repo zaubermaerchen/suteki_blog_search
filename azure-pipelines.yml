@@ -15,7 +15,14 @@ steps:
     versionSpec: '18.x'
   displayName: 'Install Node.js'
 
+- task: DownloadSecureFile@1
+  name: env
+  inputs:
+    secureFile: '.env.production.local'
+  displayName: "Downloading .env.production.local"
+
 - script: |
+    cp $(env.secureFilePath) .
     npm install
     npm run build
   displayName: 'npm install and build'
