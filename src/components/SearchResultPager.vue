@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { useRoute, RouteLocationRaw } from "vue-router";
+import { useRoute, type RouteLocationRaw } from "vue-router";
 
 interface Props {
-	total: number;
+  total: number;
   offset: number;
   limit: number;
 }

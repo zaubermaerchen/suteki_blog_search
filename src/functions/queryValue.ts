@@ -1,4 +1,4 @@
-import { LocationQueryValue } from "vue-router";
+import type { LocationQueryValue } from "vue-router";
 
 const queryValueToString = (value: LocationQueryValue | LocationQueryValue[]): string | null => {
     return !Array.isArray(value) ? value : value?.[0] ?? null;

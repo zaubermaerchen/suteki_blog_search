@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SearchResultEntry } from "@/api/@types";
+import type { SearchResultEntry } from "@/api/@types";
 import SearchResult from "@/components/SearchResult.vue";
 import Entry from "@/components/EntrySummary.vue";
 
