@@ -1,4 +1,4 @@
-/* eslint-disable */
+ 
 export type GetEntryResponse = {
   id: number
   date: string
