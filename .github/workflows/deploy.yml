@@ -33,6 +33,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           target: ${{ secrets.SCP_TARGET }}
-          source: dist/**
+          source: dist
           strip_components: 1
-          rm: true
+          rm: false
+          debug: true
